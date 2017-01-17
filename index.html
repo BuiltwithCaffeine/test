@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -20,21 +21,126 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello People! This is HTML5 Boilerplate.</p>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Add user</div>
+
+                    <div class="panel-body">
+
+                        git config --global user.name "Ant"
+
+                    </div>
+
+                </div>
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Add email</div>
+
+                    <div class="panel-body">
+
+                        git config --global user.email "Ant@email.com"
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Initialize Git</div>
+
+                    <div class="panel-body">
+
+                        git init
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Get Status</div>
+
+                    <div class="panel-body">
+
+                        git status
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Add all files to stage</div>
+
+                    <div class="panel-body">
+
+                        git add -a
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Add file to stage</div>
+
+                    <div class="panel-body">
+
+                        git add index.html
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Save staged file(s)</div>
+
+                    <div class="panel-body">
+
+                        git commit
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Save staged file(s) with comment</div>
+
+                    <div class="panel-body">
+
+                        git commit -m 'Changed the header title'
+
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Update working tree to match in the version</div>
+
+                    <div class="panel-body">
+
+                        git checkout -- .
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
     </body>
 </html>
